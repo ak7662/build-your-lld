@@ -1,0 +1,23 @@
+.tabs-container {
+  width: 80%;
+  border-bottom: 1px solid grey;
+  display: flex;
+  flex-direction: row;
+}
+
+.tab-active {
+  border-bottom: 3px solid black;
+  width: 200px;
+
+}
+
+.tab {
+  text-align: center;
+  width: 200px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.tab-body {
+  margin-top: 20px;
+}
