@@ -1,0 +1,42 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+input {
+  font-size: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 10px;
+}
+
+button {
+  border: none;
+  padding: 10px 40px;
+  margin-right: 30px;
+  margin-left: 30px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgb(21, 21, 99);
+  color: aliceblue;
+}
+
+.form-container {
+  border: 1px solid black;
+  width: 400px;
+  height: 20vh;
+  padding: 3rem;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
